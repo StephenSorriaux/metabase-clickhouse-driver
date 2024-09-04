@@ -5,12 +5,13 @@ on:
   push:
     branches:
       - master
+      - backport/**
     paths-ignore:
       - "**.md"
   pull_request:
 
 env:
-  METABASE_VERSION: v0.49.14
+  METABASE_VERSION: v0.49.25
 
 jobs:
   check-local-current-version:

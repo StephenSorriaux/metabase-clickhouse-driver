@@ -1,3 +1,11 @@
+# 1.5.2
+
+Metabase 0.49.14+ only.
+
+### Bug fixes
+
+* Fixed Array inner type introspection, which could cause reduced performance when querying tables containing arrays. ([#257](https://github.com/ClickHouse/metabase-clickhouse-driver/issues/257))
+
 # 1.5.1
 
 Metabase 0.49.14+ only.
